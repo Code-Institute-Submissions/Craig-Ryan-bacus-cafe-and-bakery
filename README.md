@@ -36,6 +36,16 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     <ul>
         <li>Using cards, a number of the Cafe's products are laid out for users to view</li>
         <li>Items are laid out in blocks of 1 for mobile, 2 for tablet and 3 for desktop devices</li>
-        <li>The card will follow a uniform design pattern of an image with centered text including a name, description and price</li>
+        <li>A coffee price list is included for customers here</li>
+        <li>The card will follow a uniform design pattern of an image with centered text including a name, description and price of the products listed</li>
+    </ul>
+</ul>
+<!-- Add products section image here -->
+<ul>
+    <li>Footer</li>
+    <ul>
+        <li>This section houses the social media links for the cafe</li>
+        <li>Also included is the cafe's contact details, phone, email and address</li>
+        <li>Copyright for the cafe is included here</li>
     </ul>
 </ul>
