@@ -1,4 +1,5 @@
 # Bágús Cafe & Bakery
+[Live link to deployed GitHub Pages website](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
 <hr>
 The Bágús Cafe & Bakery website is a 3 page website consisting of a Home landing page, an about page and a contact page. The website gives users information about the cafe.
 
@@ -74,3 +75,63 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
         <li>A google maps widget is generated below the contact form for customers to locate the cafe</li>
     </ul>
 </ul>
+<!-- Contact page img here -->
+<h2>Testing</h2>
+<hr>
+<ul>
+    <li>I tested this project across various browsers including Chrome, Brave, Safari & Firefox.</li>
+    <li>I also tested it's functionality and responsiveness using the Chrome Developer's Tools and ensured all pages were responsive across all device sizes as intended.</li>
+    <li>I ensured that all navigation links, the header, about and contact text are easy to read and intuitive for the user.</li>
+    <li>I added the required functionality to the contact form to ensure that only email formats will be accepted when filling in the contact form.</li>
+</ul>
+<h3>Bugs</h3>
+<h4>Solved Bugs</h4>
+<ul>
+    <li></li>
+</ul>
+<h3>Validator Testing</h3>
+<ul>
+    <li>HTML</li>
+    <ul>
+        <li>The official W3C validator returned no errors identified in the html files</li>
+    </ul>
+    <li>CSS</li>
+    <ul>
+        <li>The official Jigsaw W3C CSS Validator returned no errors from this project's CSS file</li>
+    </ul>
+    <li>Accessibility</li>
+    <ul>
+        <li>This project received an accessibility score of % when run through the lighthouse in developer tools</li>
+    </ul>
+</ul>
+<!-- Lighthouse img here -->
+<h4>Unresolved Bugs</h4>>
+No unresolved bugs remain
+<br>
+<h2>Deployment</h2>
+<hr>
+<ul>
+    <li>This project was is hosted using GitHub pages. Deployment steps are as follow:</li>
+    <ol>
+        <li>Go to the [Project Repository](https://github.com/Craig-Ryan/bagus-cafe-and-bakery/) and go to the Settings tab</li>
+        <li>In the side bar on the left click on Pages and then in Build and Development click on the Source dropdown and select Main then save</li>
+        <li>Wait about 2 minutes then reload the page and the link and option to visit to the deployed project will appear above</li>
+    </ol>
+</ul>
+
+Go to the live link - [Bágús Café and Bakery](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
+
+<h2>Credits</h2>
+<hr>
+<h3>Content</h3>
+<ul>
+    <li>The code to reduce the Navbar items to a condensed hamburger icon was inspired by</li>
+</ul>
+
+<h3>Media</h3>
+<ul>
+    <li>The images for the hero images across all pages were taken from [website](website.com)</li>
+</ul>
+<h3>Acknowledgements</h3>
+I would like to thank X, X & X for their help in testing and criticism of this project.
+
