@@ -35,9 +35,16 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     <li>Products Section</li>
     <ul>
         <li>Using cards, a number of the Cafe's products are laid out for users to view</li>
-        <li>Items are laid out in blocks of 1 for mobile, 2 for tablet and 3 for desktop devices</li>
+        <li>Items are presented in blocks of 1 for mobile, 2 for tablet and 3 for desktop devices</li>
         <li>A coffee price list is included for customers here</li>
         <li>The card will follow a uniform design pattern of an image with centered text including a name, description and price of the products listed</li>
+    </ul>
+</ul>
+<ul>
+    <li>Hygge Section</li>
+    <ul>
+        <li>Users will find a further "Hygge" section below products inviting customers to enjoy the warm "Hyggeligt" environment between the hours of 5-7pm</li>
+        <li>Customers are invited to avail of specialist Danish "Hygge" style pastries and to enjoy a cozy time with friends, co-workers or family in candlelight playing boardgames typical in Danish winter evenings</li>
     </ul>
 </ul>
 <!-- Add products section image here -->
@@ -45,7 +52,25 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     <li>Footer</li>
     <ul>
         <li>This section houses the social media links for the cafe</li>
-        <li>Also included is the cafe's contact details, phone, email and address</li>
+        <li>Also included is the cafe's contact details, phone, email and address and opening hours</li>
         <li>Copyright for the cafe is included here</li>
+    </ul>
+</ul>
+<!-- Footer img here -->
+<ul>
+    <li>About Page</li>
+    <ul>
+        <li>A hero image of a coffee cup with text reading "A little bit about us" greets users at the top of this page</li>
+        <li>An introduction to the cafe and it's founder can be found in the main section of the page</li>
+        <li>An image and breif bio of its owner are presented here in cascading format for mobile devices and side by side for all other devices</li>
+    </ul>
+</ul>
+<!-- About img here -->
+<ul>
+    <li>Contact Page</li>
+    <ul>
+        <li>The same hero image from the about page greets users with the text "Want to get in touch?"</li>
+        <li>A contact form can be filled in by customers looking to contact the cafe regarding private catering services offered</li>
+        <li>A google maps widget is generated below the contact form for customers to locate the cafe</li>
     </ul>
 </ul>
