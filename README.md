@@ -8,12 +8,10 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
 <!-- Am I responsive img here -->
 
 ### Table of Contents
-<ul>
-<li>[Features](#features)</li>
-<li>[Testing](#testing)</li>
-<li>[Deployment](#deployment)</li>
-<li>[Credits](#credits)</li>
-</ul>
+1. [Features](#features)
+2. [Testing](#testing)
+3. [Deployment](#deployment)
+4. [Credits](#credits)
 
 ## Features
 <hr>
@@ -83,6 +81,9 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
         <li>A google maps widget is generated below the contact form for customers to locate the cafe</li>
     </ul>
 </ul>
+
+### Wireframes
+Wireframe mockups for the site's design can be found [here](link.to.wireframes)
 <!-- Contact page img here -->
 
 ## Testing
@@ -123,14 +124,12 @@ No unresolved bugs remain
 
 ## Deployment
 <hr>
-<ul>
-    <li>This project was is hosted using GitHub pages. Deployment steps are as follow:</li>
-    <ol>
-        <li>Go to the [Project Repository](https://github.com/Craig-Ryan/bagus-cafe-and-bakery/) and go to the Settings tab</li>
-        <li>In the side bar on the left click on Pages and then in Build and Development click on the Source dropdown and select Main then save</li>
-        <li>Wait about 2 minutes then reload the page and the link and option to visit to the deployed project will appear above</li>
-    </ol>
-</ul>
+
+This project was is hosted using GitHub pages. Deployment steps are as follow:
+
+       1. Go to the [project repository](https://github.com/Craig-Ryan/bagus-cafe-and-bakery) and go to the Settings tab
+       2. In the side bar on the left click on Pages and then in Build and Development click on the Source dropdown and select Main then save
+       3. Wait about 2 minutes then reload the page and the link and option to visit to the deployed project will appear above
 
 Go to the live link - [Bágús Café and Bakery](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
 
@@ -138,14 +137,10 @@ Go to the live link - [Bágús Café and Bakery](https://craig-ryan.github.io/ba
 <hr>
 
 ### Content
-<ul>
-    <li>The code to reduce the Navbar items to a condensed hamburger icon was inspired by</li>
-</ul>
+The code to reduce the Navbar items to a condensed hamburger icon was inspired by
 
 ### Media
-<ul>
-    <li>The images for the hero images across all pages were taken from [website](website.com)</li>
-</ul>
+The images for the hero images across all pages were taken from [photo website](website.com)
 
 ### Acknowledgements
 I would like to thank X, X & X for their help in testing and criticism of this project.
