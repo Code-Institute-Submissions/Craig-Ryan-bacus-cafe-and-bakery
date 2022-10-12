@@ -7,7 +7,15 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
 
 <!-- Am I responsive img here -->
 
-<h2>Features</h2>
+### Table of Contents
+<ul>
+<li>[Features](#features)</li>
+<li>[Testing](#testing)</li>
+<li>[Deployment](#deployment)</li>
+<li>[Credits](#credits)</li>
+</ul>
+
+## Features
 <hr>
 <ul>
     <li>Navigation</li>
@@ -76,7 +84,8 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     </ul>
 </ul>
 <!-- Contact page img here -->
-<h2>Testing</h2>
+
+## Testing
 <hr>
 <ul>
     <li>I tested this project across various browsers including Chrome, Brave, Safari & Firefox.</li>
@@ -84,12 +93,14 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     <li>I ensured that all navigation links, the header, about and contact text are easy to read and intuitive for the user.</li>
     <li>I added the required functionality to the contact form to ensure that only email formats will be accepted when filling in the contact form.</li>
 </ul>
-<h3>Bugs</h3>
+
+### Bugs
 <h4>Solved Bugs</h4>
 <ul>
     <li></li>
 </ul>
-<h3>Validator Testing</h3>
+
+### Validator Testing
 <ul>
     <li>HTML</li>
     <ul>
@@ -105,10 +116,12 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     </ul>
 </ul>
 <!-- Lighthouse img here -->
-<h4>Unresolved Bugs</h4>>
+
+#### Unresolved Bugs
 No unresolved bugs remain
 <br>
-<h2>Deployment</h2>
+
+## Deployment
 <hr>
 <ul>
     <li>This project was is hosted using GitHub pages. Deployment steps are as follow:</li>
@@ -121,17 +134,19 @@ No unresolved bugs remain
 
 Go to the live link - [Bágús Café and Bakery](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
 
-<h2>Credits</h2>
+## Credits
 <hr>
-<h3>Content</h3>
+
+### Content
 <ul>
     <li>The code to reduce the Navbar items to a condensed hamburger icon was inspired by</li>
 </ul>
 
-<h3>Media</h3>
+### Media
 <ul>
     <li>The images for the hero images across all pages were taken from [website](website.com)</li>
 </ul>
-<h3>Acknowledgements</h3>
+
+### Acknowledgements
 I would like to thank X, X & X for their help in testing and criticism of this project.
 
