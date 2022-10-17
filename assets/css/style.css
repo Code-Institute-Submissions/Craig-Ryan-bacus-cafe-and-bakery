@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #BFA084;
+    background-color: #734636;
+    font-weight: 300;
+}
+
+/* Header and Nav */
+
+header {
+    background-color: #BFB8AE;
+
+/* Main */
+
+#main {
+    height: 900px;
+    width: 100%;
+} */
+
+/* Footer and Social*/
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #59342C;
+}
+
+.copyright {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Media Queries */
