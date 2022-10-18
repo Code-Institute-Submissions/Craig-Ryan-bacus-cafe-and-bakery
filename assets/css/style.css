@@ -15,15 +15,97 @@ body {
 
 /* Header and Nav */
 
-header {
+.brand {
     background-color: #BFB8AE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.brand a {
+    color: #59342C;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar li a {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+}
+
+.navbar li a:hover {
+    background-color: #59342C;
+    color: #BFB8AE;
+    border-radius: 2rem;
+}
+ /* Nav Menu Toggle */
+ .nav-btn {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 1;
+    cursor: pointer;
+ }
+
+ .nav-btn-cross,
+ .nav-btn-cross::before,
+ .nav-btn-cross::after {
+    width: 1.5rem;
+    height: 0.1rem;
+    background-color: #000;
+    transition: all 0.5s ease-in-out;
+ }
+
+ .nav-btn-cross::before,
+ .nav-btn-cross::after {
+    content: "";
+    position: absolute;
+ }
+
+ .nav-btn-cross::before {
+    transform: translateY(-0.5rem);
+ }
+
+ .nav-btn-cross::after {
+    transform: translateY(0.5rem);
+ }
+
+ /* Animation */
+
+ .nav-btn.open .nav-btn-cross {
+    transform: translateX(2rem);
+    background-color: transparent;
+ }
+
+ .nav-btn.open .nav-btn-cross::before {
+    transform: rotate(45deg) translate(-1.5rem, 1.5rem);
+ }
+
+ .nav-btn.open .nav-btn-cross::after {
+    transform: rotate(-45deg) translate(-1.5rem, -1.5rem);
+ }
 
 /* Main */
 
 #main {
     height: 900px;
     width: 100%;
-} */
+} 
 
 /* Footer and Social*/
 
@@ -38,3 +120,32 @@ footer {
 }
 
 /* Media Queries */
+
+@media (max-width:767px) {
+
+    .brand li a {
+        font-size: 1rem;
+        color: #BFB8AE;
+    }
+
+    .nav-btn {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100vh;
+        transform: translateX(100vw);
+        background-color: #59342C;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar.open {
+        transform: translateX(0);
+    }
+}
