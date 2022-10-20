@@ -1,7 +1,7 @@
-# Bágús Cafe & Bakery
+# Bácús Cafe & Bakery
 [Live link to deployed GitHub Pages website](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
 <hr>
-The Bágús Cafe & Bakery website is a 3 page website consisting of a Home landing page, an about page and a contact page. The website gives users information about the cafe.
+The Bácús Cafe & Bakery website is a 3 page website consisting of a Home landing page, an about page and a contact page. The website gives users information about the cafe.
 
 Visitors to the website will be greeted by a homepage inviting users to learn about the cafe, it's products, the owner and how to get in touch to avail of catering for private events.
 
@@ -18,7 +18,7 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
 <ul>
     <li>Navigation</li>
         <ul>
-            <li>The Cafe's name "Bágús" is featured in the top left hand corner of the page using the color #</li>
+            <li>The Cafe's name "Bácús" is featured in the top left hand corner of the page using the color #</li>
             <li>To the right sit the navigation links for the 3 pages included in the website: "Home", "About" and "Contact" which when clicked bring the user to each respective page</li>
             <li>The navigation links provide users with an intuitive layout of what the website consits of and what they will find through each link</li>
             <li>The navigation links are styled to contrast with the background in order to be clearly visible to all users</li>
@@ -32,7 +32,7 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
         <ul>
             <li>The header section houses a hero image of a cafe</li>
             <li>There is text sitting on top of the image in a opaque text box to contrast nicely with the main hero image</li>
-            <li>This text lets outlines the name "Bágús Cafe and Bakery" and a brief statement about the cafe</li>
+            <li>This text lets outlines the name "Bácús Cafe and Bakery" and a brief statement about the cafe</li>
         </ul>
 </ul>
 
@@ -131,7 +131,7 @@ This project was is hosted using GitHub pages. Deployment steps are as follow:
        2. In the side bar on the left click on Pages and then in Build and Development click on the Source dropdown and select Main then save
        3. Wait about 2 minutes then reload the page and the link and option to visit to the deployed project will appear above
 
-Go to the live link - [Bágús Café and Bakery](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
+Go to the live link - [Bácús Café and Bakery](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
 
 ## Credits
 <hr>
@@ -141,6 +141,12 @@ The code to reduce the Navbar items to a condensed hamburger icon was inspired b
 
 ### Media
 The images for the hero images across all pages were taken from [photo website](website.com)
+
+Photo by Marta Dzedyshko: https://www.pexels.com/photo/person-using-espresso-machine-2775827/
+
+Photo by Chevanon Photography: https://www.pexels.com/photo/close-up-of-coffee-cup-324028/
+
+Photo by Clem Onojeghuo: https://www.pexels.com/photo/coffee-brown-signage-175711/
 
 ### Acknowledgements
 I would like to thank X, X & X for their help in testing and criticism of this project.
