@@ -141,24 +141,20 @@ body {
 }
 
 .products {
-    display: inline-block;
-}
-
-/*  
-.card {
-    width: 50%;
-    height: 50%;
-    margin: 0;
-}
-
-.card-content {
-    height: 50%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
 }
 
-.card-img {
-    height: 50%;
-} */
+.products img {
+    height: 50vh;
+    width: 30vw;
+}
+
+
+
+
 
 
 /* Footer and Social*/
@@ -202,5 +198,15 @@ footer {
 
     .navbar.open {
         transform: translateX(0);
+    }
+
+    .products {
+        display: block;
+        text-align: center;
+    }
+
+    .products img {
+        height: 50vh;
+        width: 70%;
     }
 }
