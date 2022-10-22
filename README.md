@@ -146,7 +146,9 @@ Photo by Marta Dzedyshko: https://www.pexels.com/photo/person-using-espresso-mac
 
 Photo by Chevanon Photography: https://www.pexels.com/photo/close-up-of-coffee-cup-324028/
 
-Photo by Clem Onojeghuo: https://www.pexels.com/photo/coffee-brown-signage-175711/
+Photo by Livier Garcia: https://www.pexels.com/photo/assorted-fruits-on-person-s-hand-1459339/
+
+Photo by Abhinav Goswami: https://www.pexels.com/photo/sliced-cake-on-plate-291528/ 
 
 ### Acknowledgements
 I would like to thank X, X & X for their help in testing and criticism of this project.

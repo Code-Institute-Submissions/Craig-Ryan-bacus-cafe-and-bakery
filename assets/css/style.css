@@ -11,6 +11,7 @@ body {
     color: #BFA084;
     background-color: #734636;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 /* Header and Nav */
@@ -140,9 +141,24 @@ body {
 }
 
 .products {
-    height: 900px;
+    display: inline-block;
 }
 
+/*  
+.card {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+}
+
+.card-content {
+    height: 50%;
+    width: 100%;
+}
+
+.card-img {
+    height: 50%;
+} */
 
 
 /* Footer and Social*/
