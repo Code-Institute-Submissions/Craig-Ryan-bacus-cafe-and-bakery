@@ -151,3 +151,7 @@ Photo by Clem Onojeghuo: https://www.pexels.com/photo/coffee-brown-signage-17571
 ### Acknowledgements
 I would like to thank X, X & X for their help in testing and criticism of this project.
 
+### Technologies Used
+
+https://tinypng.com/
+
