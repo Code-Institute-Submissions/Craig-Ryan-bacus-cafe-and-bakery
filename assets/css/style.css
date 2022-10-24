@@ -160,6 +160,11 @@ h2 {
     width: 100%;
     height: 70%;
     display: block;
+    transition: all .5s ease-in-out;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
 }
 
 .card-header {
