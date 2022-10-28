@@ -12,6 +12,7 @@ body {
     background-color: #734636;
     font-weight: 300;
     overflow-x: hidden;
+    text-shadow: .1px 1px #000;
 }
 
 /* Header and Nav */
@@ -125,7 +126,7 @@ body {
 .hero-text {
     width: 40%;
     height: 100%;
-    background-color: rgba(89, 52, 44, 0.7);
+    background-color: rgba(89, 52, 44, 0.9);
     color:#BFB8AE;
     position: absolute;
     right: 0;
@@ -135,6 +136,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: justify;
 
     line-height: 2;
     letter-spacing: 2px;
@@ -183,17 +185,6 @@ p {
     width: 60%;
 }
 
-/* #hygge p{
-    text-align: justify;
-    justify-content: center;
-} */
-
-
-
-
-
-
-
 /* Footer and Social*/
 
 footer {
@@ -204,13 +195,14 @@ footer {
 
 footer p {
     float: left;
-    margin: 5%;
+    margin: 5% 0 0 5%;
 }
 
 footer ul li {
     display: inline-block;
     float: right;
-    margin: 5% 5% 5% auto;
+    margin-right: 5%;
+    margin-top: 4%;
 }
 
 footer ul li a {
@@ -248,13 +240,19 @@ footer ul li a {
         transform: translateX(0);
     }
 
-    .products {
-        display: block;
+    .hero-text {
+        width: 70%;
+        height: 40%;
+        position: absolute;
         text-align: center;
+        top: 30%;
+        left: 15%;
+        padding: 2%;
+    } 
+
+    .main-content {
+        display: block;
+        align-items: center;
     }
 
-    .products img {
-        height: 50vh;
-        width: 70%;
-    }
 }
