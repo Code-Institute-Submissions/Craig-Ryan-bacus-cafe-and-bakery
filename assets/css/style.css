@@ -196,13 +196,26 @@ p {
 
 /* Footer and Social*/
 
-.footer-content {
-    display: flex;
+footer {
     height: 150px;
+    line-height: 1.5;
+    position: relative;
 }
 
-.copyright {
-    font-family: 'Dancing Script', cursive;
+footer p {
+    float: left;
+    margin: 5%;
+}
+
+footer ul li {
+    display: inline-block;
+    float: right;
+    margin: 5% 5% 5% auto;
+}
+
+footer ul li a {
+    color:#BFB8AE;
+    font-size: 2rem;
 }
 
 /* Media Queries */
