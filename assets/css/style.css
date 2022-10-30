@@ -244,7 +244,7 @@ footer ul li a {
 @media (max-width:767px) {
 
     * {
-        overflow-x: inherit;
+        overflow-x: none;
     }
 
     .brand li a {
