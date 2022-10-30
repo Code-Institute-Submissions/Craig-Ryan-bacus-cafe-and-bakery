@@ -136,12 +136,13 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: justify;
-    line-height: 2;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+
 }
 
-.hero-text > p {
+.hero-text > h3 {
     margin: 0 5%;
+    font-weight: 300;
 }
 
 h2 {
@@ -194,7 +195,7 @@ p {
 /* Footer and Social*/
 
 footer {
-    height: 150px;
+    height: 20vh;
     line-height: 1.5;
     position: relative;
 }
@@ -219,6 +220,10 @@ footer ul li a {
 /* Media Queries */
 
 @media (max-width:767px) {
+
+    * {
+        overflow-x: inherit;
+    }
 
     .brand li a {
         font-size: 1rem;
@@ -247,6 +252,8 @@ footer ul li a {
     }
 
     .hero-text {
+        font-size: 1em;
+        text-align: center;
         width: 70%;
         height: 40%;
         position: absolute;
@@ -256,18 +263,36 @@ footer ul li a {
         padding: 2%;
     } 
 
-    p {
+    p, .hero-text > p {
         font-size: 1.1em;
+        text-align: center;
     }
 
     .main-content {
         display: block;
-        width: 66%;
+        width: 80%;
         margin: 0 auto;
     }
 
     #coffee, #cake {
         width: 100%;
+    }
+
+    #hygge {
+        width: 80%;
+    }
+
+
+    footer {
+        vertical-align: middle;
+    }
+
+    footer > p {
+        font-size: 1.5rem;
+    }
+
+    footer ul li a {
+        font-size: 1.5rem;
     }
 
 }
