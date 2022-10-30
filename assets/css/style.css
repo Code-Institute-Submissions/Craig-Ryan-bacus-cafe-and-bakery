@@ -184,7 +184,7 @@ p {
     background-color: #BFA084;
     color: #59342C;
     padding-bottom: 3%;
-    text-shadow: .5px 1px #734636;
+    text-shadow: 0.3px 0.3px #734636;
 }
 
 #hygge {
@@ -198,8 +198,9 @@ footer {
     height: 20vh;
     line-height: 1.5;
     position: relative;
-}
+ }
 
+/*
 footer p {
     float: left;
     margin: 5% 0 5% 5%;
@@ -215,7 +216,28 @@ footer ul li {
 footer ul li a {
     color:#BFB8AE;
     font-size: 2rem;
+} */
+
+.social, .copyright {
+    text-align: center;
+    margin-top: 3%;
 }
+
+.social > li {
+    display: inline;
+    margin-right: 2%;
+}
+
+.social li a {
+    color:#BFB8AE;
+    font-size: 2rem;
+}
+
+.copyright {
+    font-size: 1.2rem;
+}
+
+
 
 /* Media Queries */
 
@@ -282,8 +304,7 @@ footer ul li a {
         width: 80%;
     }
 
-
-    footer {
+    /* footer {
         vertical-align: middle;
     }
 
@@ -293,6 +314,15 @@ footer ul li a {
 
     footer ul li a {
         font-size: 1.5rem;
+    } */
+
+
+    .social li {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: .9rem
     }
 
 }
