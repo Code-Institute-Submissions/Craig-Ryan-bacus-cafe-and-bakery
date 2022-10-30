@@ -151,17 +151,17 @@ h2 {
     margin: 5% auto;
 }
 
-.main-content, .hygge-content {
+.main-content, .main-content-contact, .hygge-content {
     display: flex;
 }
 
-#coffee, #cake  {
+.card  {
     width: 50%;
     text-align: center;
     margin: 0 3% 3% 3%;
 }
 
-#coffee > p, #cake > p {
+.card > p {
     margin-top: 5%;
 }
 
@@ -200,24 +200,6 @@ footer {
     position: relative;
  }
 
-/*
-footer p {
-    float: left;
-    margin: 5% 0 5% 5%;
-}
-
-footer ul li {
-    float: right;
-    margin-right: 5%;
-    margin-top: 4%;
-    list-style-type: none;
-}
-
-footer ul li a {
-    color:#BFB8AE;
-    font-size: 2rem;
-} */
-
 .social, .copyright {
     text-align: center;
     margin-top: 3%;
@@ -237,6 +219,29 @@ footer ul li a {
     font-size: 1.2rem;
 }
 
+/* About Us */
+
+.hero-img-about {
+    height: 100%;
+    width: 100%;
+    background: url("../images/dual-cafe.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.card-image-about {
+    width: 25%;
+    border-radius: 50%;
+}
+
+/* Contact Us */
+
+.main-content-contact {
+    border: 1px solid #BFA084;
+}
+
+.form {
+    margin: 3%;
+}
 
 
 /* Media Queries */
@@ -292,29 +297,17 @@ footer ul li a {
 
     .main-content {
         display: block;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
-    #coffee, #cake {
+    .card {
         width: 100%;
     }
 
     #hygge {
-        width: 80%;
+        width: 90%;
     }
-
-    /* footer {
-        vertical-align: middle;
-    }
-
-    footer > p {
-        font-size: 1.5rem;
-    }
-
-    footer ul li a {
-        font-size: 1.5rem;
-    } */
 
 
     .social li {
