@@ -233,14 +233,24 @@ footer {
     border-radius: 50%;
 }
 
+.bio {
+    margin: 22% 5% 0 0;
+}
+
 /* Contact Us */
 
 .main-content-contact {
-    border: 1px solid #BFA084;
+    display: flex;
+    border-bottom: 15px solid #BFA084;
 }
 
 .form {
     margin: 3%;
+    max-width: 80%;
+}
+
+.card-map {
+    max-width: 80%;
 }
 
 
@@ -316,6 +326,13 @@ footer {
 
     .copyright {
         font-size: .9rem
+    }
+
+    /* About Us  */
+
+    .bio {
+        margin: 3%;
+        font-size: .9em;
     }
 
 }
