@@ -42,29 +42,38 @@
     <div class="main-content-contact">
         <section class="card">
             <h2>Get in touch</h2>
-            <div>
+            <div class="form-p">
                 <p>Have an event, birthday or special occasion? We cover all events, big or small.</p>
                 <p> Message us below and we'll be in touch!</p>
             </div>
             <div class="form">
-                <form method="https://formdump.codeinstitute.net" action="post">
-                    <label for="name">Your Name</label>
-                    <input type="text" name="cus_name" id="name" class="input" required>
-                    <label for="name">Your Email</label>
-                    <input type="email" name="email_address" id="email" class="input" required>
-                    <label for="message">Your Message</label>
-                    <textarea name="cus_message" id="message" cols="50" rows="10"></textarea>
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <div class="form-input">
+                        <label for="name">Your Name:</label>
+                        <input class="input" type="text" name="cus_name" id="name" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="name">Your Email:</label>
+                        <input class="input" type="email" name="email_address" id="email" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="message">Your Message:</label>
+                        <textarea class="input" name="cus_message" id="message" cols="50" rows="10"></textarea>
+                    </div>
+                    
+                    
+                    
                     <div class="submit">
                         <input type="submit" value="Submit">
                     </div>
                 </form>
             </div>
         </section>
-        <section class="card-map">
+        <section class="card">
             <h2>Our Location</h2>
             <!-- https://googlemapsiframegenerator.com/#! -->
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9476.934036410763!2d-6.914783857798686!3d53.571449030427715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485df56fe5948615%3A0xa00c7a99731ecb0!2sKildalkey%2C%20Co.%20Meath!5e0!3m2!1sen!2sie!4v1667212077307!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9476.934036410763!2d-6.914783857798686!3d53.571449030427715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485df56fe5948615%3A0xa00c7a99731ecb0!2sKildalkey%2C%20Co.%20Meath!5e0!3m2!1sen!2sie!4v1667212077307!5m2!1sen!2sie" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         </div>
