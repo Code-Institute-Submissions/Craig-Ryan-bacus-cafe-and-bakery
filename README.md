@@ -139,6 +139,8 @@ Go to the live link - [Bácús Café and Bakery](https://craig-ryan.github.io/ba
 ### Content
 The code to reduce the Navbar items to a condensed hamburger icon was inspired by
 
+https://getcssscan.com/css-buttons-examples
+
 ### Media
 The images for the hero images across all pages were taken from [photo website](website.com)
 

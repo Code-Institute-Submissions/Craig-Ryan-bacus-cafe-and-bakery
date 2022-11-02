@@ -137,7 +137,6 @@ body {
     flex-direction: column;
     text-align: justify;
     letter-spacing: 3px;
-
 }
 
 .hero-text > h3 {
@@ -221,11 +220,34 @@ footer {
 
 /* About Us */
 
-.hero-img-about {
-    height: 100%;
+.hero-secondary {
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-img-secondary {
+    height: 60vh;
     width: 100%;
     background: url("../images/dual-cafe.jpg") no-repeat center center;
     background-size: cover;
+}
+
+.hero-text-secondary {
+    width: 40%;
+    height: 60vh;
+    background-color: rgba(89, 52, 44, 0.9);
+    color:#BFB8AE;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    letter-spacing: 3px;
 }
 
 .card-image-about {
@@ -235,6 +257,50 @@ footer {
 
 .bio {
     margin: 22% 5% 0 0;
+}
+
+<!-- HTML !-->
+<button class="button-44" role="button">Button 44</button>
+
+/* CSS */
+.button-44 {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
 }
 
 /* Contact Us */
@@ -301,7 +367,7 @@ footer {
         transform: translateX(0);
     }
 
-    .hero-text {
+    .hero-text, .hero-text-secondary {
         font-size: 1em;
         text-align: center;
         width: 70%;
