@@ -214,6 +214,12 @@ footer {
     font-size: 2rem;
 }
 
+.social li a:hover {
+    color:#59342C;
+    background-color:#BFB8AE;
+    border-radius: 12%;
+}
+
 .copyright {
     font-size: 1.2rem;
 }
@@ -259,14 +265,21 @@ footer {
     margin: 22% 5% 0 0;
 }
 
-<!-- HTML !-->
-<button class="button-44" role="button">Button 44</button>
+#hygge button {
+    margin: 3% auto;
+    border: 1px solid #3a3a3a;
+}
+
+#hygge button:hover {
+    border: 2px solid #dadada;
+}
 
 /* CSS */
 .button-44 {
-  background: #e62143;
+  background: #734636;
   border-radius: 11px;
   box-sizing: border-box;
+  border: solid 1px #BFB8AE;
   color: #fff;
   cursor: pointer;
   display: flex;
@@ -275,7 +288,7 @@ footer {
   font-weight: 700;
   justify-content: center;
   line-height: 33.4929px;
-  padding: .8em 1em;
+  margin: 2% 15%;
   text-align: center;
   text-decoration: none;
   text-decoration-skip-ink: auto;
@@ -285,9 +298,8 @@ footer {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
+  width: 30%;
   word-break: break-word;
-  border: 0;
 }
 
 .button-44:active,
@@ -299,8 +311,12 @@ footer {
 }
 
 .button-44:hover {
-  border-bottom-style: none;
-  border-color: #dadada;
+  border: 2px solid #dadada;
+}
+
+button > a {
+    text-decoration: none;
+    color: #BFA084;
 }
 
 /* Contact Us */
@@ -428,6 +444,10 @@ footer {
 
     .form-p {
     margin: 0 auto;
+    }
+
+    .button-44 {
+        margin: 3% 25%;;
     }
 
 }
