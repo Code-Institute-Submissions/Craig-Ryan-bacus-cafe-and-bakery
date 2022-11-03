@@ -166,7 +166,8 @@ h2 {
 
 p {
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.4rem;
+    font-weight: 600;
     line-height: 20px;
     letter-spacing: 3px;
 }
@@ -263,6 +264,7 @@ footer {
 
 .bio {
     margin: 22% 5% 0 0;
+    font-weight: 600;
 }
 
 #hygge button {
@@ -280,7 +282,7 @@ footer {
   border-radius: 11px;
   box-sizing: border-box;
   border: solid 1px #BFB8AE;
-  color: #fff;
+  color: #fafafa;
   cursor: pointer;
   display: flex;
   font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
@@ -316,13 +318,15 @@ footer {
 
 button > a {
     text-decoration: none;
-    color: #BFA084;
+    color: #fafafa;
 }
 
 /* Contact Us */
 
-.main-content-contact {
+.main-content-contact {    
     display: flex;
+    width: 100%;
+    margin: 0 auto;
     border-bottom: 15px solid #BFA084;
 }
 
@@ -427,7 +431,6 @@ button > a {
 
     .bio {
         margin: 3%;
-        font-size: .9em;
     }
 
     .main-content-contact {
@@ -447,7 +450,7 @@ button > a {
     }
 
     .button-44 {
-        margin: 3% 25%;;
+        margin: 3% 25%;
     }
 
 }

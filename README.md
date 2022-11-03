@@ -5,7 +5,7 @@ The Bácús Cafe & Bakery website is a 3 page website consisting of a Home landi
 
 Visitors to the website will be greeted by a homepage inviting users to learn about the cafe, it's products, the owner and how to get in touch to avail of catering for private events.
 
-<!-- Am I responsive img here -->
+![Bácús Cafe & Bakery responsive image](assets/readme-files/responsive-img.png)
 
 ### Table of Contents
 1. [Features](#features)
@@ -18,56 +18,58 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
 <ul>
     <li>Navigation</li>
         <ul>
-            <li>The Cafe's name "Bácús" is featured in the top left hand corner of the page using the color #</li>
+            <li>The Cafe's name "Bácús" is featured in the top left hand corner of the page using the color #59342C</li>
             <li>To the right sit the navigation links for the 3 pages included in the website: "Home", "About" and "Contact" which when clicked bring the user to each respective page</li>
             <li>The navigation links provide users with an intuitive layout of what the website consits of and what they will find through each link</li>
             <li>The navigation links are styled to contrast with the background in order to be clearly visible to all users</li>
         </ul>
 </ul>
 
-<!-- Img of navbar here -->
+![Logo and Navigation Image](assets/readme-files/nav.png)
 
 <ul>
-    <li>Header</li>
+    <li>Main</li>
         <ul>
-            <li>The header section houses a hero image of a cafe</li>
+            <li>The main section houses a hero image of a cafe</li>
             <li>There is text sitting on top of the image in a opaque text box to contrast nicely with the main hero image</li>
             <li>This text lets outlines the name "Bácús Cafe and Bakery" and a brief statement about the cafe</li>
         </ul>
 </ul>
 
-<!-- Img of header here -->
+![Main Hero Image](assets/readme-files/main.png)
 
 <ul>
     <li>Products Section</li>
     <ul>
-        <li>Using cards, a number of the Cafe's products are laid out for users to view</li>
-        <li>Items are presented in blocks of 1 for mobile, 2 for tablet and 3 for desktop devices</li>
-        <li>A coffee price list is included for customers here</li>
-        <li>The card will follow a uniform design pattern of an image with centered text including a name, description and price of the products listed</li>
+        <li>Using cards, the Cafe's products are laid out for users to view</li>
+        <li>Items are presented in blocks of 1 for mobile, 2 for tablet desktop devices</li>
+        <li>A heading follwed by an image then by a paragraph is presented to inform users about what products the cafe offers</li>
     </ul>
 </ul>
 <ul>
     <li>Hygge Section</li>
     <ul>
-        <li>Users will find a further "Hygge" section below products inviting customers to enjoy the warm "Hyggeligt" environment between the hours of 5-7pm</li>
+        <li>Users will find a further "Hygge" section below products inviting customers to enjoy the warm "Hyggeligt" environment between the hours of 6-8pm</li>
         <li>Customers are invited to avail of specialist Danish "Hygge" style pastries and to enjoy a cozy time with friends, co-workers or family in candlelight playing boardgames typical in Danish winter evenings</li>
     </ul>
 </ul>
-<!-- Add products section image here -->
+
+![Products Image](assets/readme-files/products.png)
+
 <ul>
     <li>Footer</li>
     <ul>
         <li>This section houses the social media links for the cafe</li>
-        <li>Also included is the cafe's contact details, phone, email and address and opening hours</li>
         <li>Copyright for the cafe is included here</li>
     </ul>
 </ul>
-<!-- Footer img here -->
+
+![Footer Image](assets/readme-files/footer.png)
+
 <ul>
     <li>About Page</li>
     <ul>
-        <li>A hero image of a coffee cup with text reading "A little bit about us" greets users at the top of this page</li>
+        <li>A hero image of a coffee cup with text reading "About us" greets users at the top of this page</li>
         <li>An introduction to the cafe and it's founder can be found in the main section of the page</li>
         <li>An image and breif bio of its owner are presented here in cascading format for mobile devices and side by side for all other devices</li>
     </ul>
