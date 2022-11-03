@@ -1,5 +1,5 @@
 # Bácús Cafe & Bakery
-[Live link to deployed GitHub Pages website](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
+[Live link to deployed GitHub Pages website](https://craig-ryan.github.io/bacus-cafe-and-bakery/index.html)
 <hr>
 The Bácús Cafe & Bakery website is a 3 page website consisting of a Home landing page, an about page and a contact page. The website gives users information about the cafe.
 
@@ -33,6 +33,7 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
             <li>The main section houses a hero image of a cafe</li>
             <li>There is text sitting on top of the image in a opaque text box to contrast nicely with the main hero image</li>
             <li>This text lets outlines the name "Bácús Cafe and Bakery" and a brief statement about the cafe</li>
+            <li>THe navigation and logo are constant across all pages</li>
         </ul>
 </ul>
 
@@ -61,28 +62,45 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
     <ul>
         <li>This section houses the social media links for the cafe</li>
         <li>Copyright for the cafe is included here</li>
+        <li>The footer is constant throughout all pages</li>
     </ul>
 </ul>
 
 ![Footer Image](assets/readme-files/footer.png)
 
-<ul>
-    <li>About Page</li>
-    <ul>
-        <li>A hero image of a coffee cup with text reading "About us" greets users at the top of this page</li>
-        <li>An introduction to the cafe and it's founder can be found in the main section of the page</li>
-        <li>An image and breif bio of its owner are presented here in cascading format for mobile devices and side by side for all other devices</li>
-    </ul>
-</ul>
-<!-- About img here -->
-<ul>
-    <li>Contact Page</li>
-    <ul>
-        <li>The same hero image from the about page greets users with the text "Want to get in touch?"</li>
-        <li>A contact form can be filled in by customers looking to contact the cafe regarding private catering services offered</li>
-        <li>A google maps widget is generated below the contact form for customers to locate the cafe</li>
-    </ul>
-</ul>
+About Page
+    
+- A hero image of a coffee cup with text reading "About us" greets users at the top of this page</li>
+
+![About Hero Image](assets/readme-files/about-hero.png)
+
+- An introduction to the cafe and it's founder can be found in the main section of the page
+- An image and breif bio of its owner are presented here in cascading format for mobile devices and side by side for all other devices
+
+
+![About Bio Image](assets/readme-files/about-bio.png)
+
+- A call to users to get in touch for any events lies under the about and bio sections with a button that brings users to the contact page
+
+
+![Contact Call Image](assets/readme-files/contact-call.png)
+        
+
+Contact Page
+    
+- The same hero image from the about page greets users with the text "Contact Us"
+
+
+![Contact Hero Image](assets/readme-files/contact.png)
+
+- A contact form can be filled in by customers looking to contact the cafe regarding private catering services offered
+
+![Form Image](assets/readme-files/form.png)
+
+- A google maps widget is generated below the contact form for customers to locate the café
+
+![Map Image](assets/readme-files/map.png)
+
 
 ### Wireframes
 Wireframe mockups for the site's design can be found [here](link.to.wireframes)
@@ -96,6 +114,22 @@ Wireframe mockups for the site's design can be found [here](link.to.wireframes)
     <li>I ensured that all navigation links, the header, about and contact text are easy to read and intuitive for the user.</li>
     <li>I added the required functionality to the contact form to ensure that only email formats will be accepted when filling in the contact form.</li>
 </ul>
+
+### Lighthouse
+
+I ran Lighthouse on each of the pages to test for best practices, performance, SEO and accessibility and results are displayed below:
+
+- Index.html
+
+![Index Lighthouse Image Image](assets/readme-files/index-light.png)
+
+- About.html 
+
+![About Us Lighthouse Image Image](assets/readme-files/about-light.png)
+
+- Contact.html
+
+![Contact Us Lighthouse Image Image](assets/readme-files/contact-light.png)
 
 ### Bugs
 <h4>Solved Bugs</h4>

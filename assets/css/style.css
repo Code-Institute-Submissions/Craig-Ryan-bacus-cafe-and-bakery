@@ -169,7 +169,7 @@ p {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .card-image {
@@ -335,10 +335,14 @@ button > a {
     margin-top: 2%;
 }
 
-.form-p {
-    width: 70%;
+.form-h2 {
+    text-align: left;
 }
 
+.form-p {
+    width: 70%;
+    text-align: left;
+}
 
 .input {
     display: block;
@@ -443,6 +447,10 @@ button > a {
 
     .form {
         margin-left: 18%;
+    }
+
+    .form-h2 {
+        text-align: center;
     }
 
     .form-p {
