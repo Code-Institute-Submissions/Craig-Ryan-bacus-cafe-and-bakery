@@ -362,8 +362,10 @@ button > a {
 @media (max-width:767px) {
 
     * {
-        overflow-x: none;
+        overflow-x: hidden;
     }
+
+    /* Index.html */
 
     .brand li a {
         font-size: 1rem;
@@ -436,6 +438,8 @@ button > a {
     .bio {
         margin: 3%;
     }
+
+    /* Contact Us */
 
     .main-content-contact {
         display: block;

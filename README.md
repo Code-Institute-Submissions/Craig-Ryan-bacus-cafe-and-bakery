@@ -8,10 +8,31 @@ Visitors to the website will be greeted by a homepage inviting users to learn ab
 ![Bácús Cafe & Bakery responsive image](assets/readme-files/responsive-img.png)
 
 ### Table of Contents
+1. [User Experience](#ux)
 1. [Features](#features)
+1. [Technologies Used](#technologies-used)
 2. [Testing](#testing)
 3. [Deployment](#deployment)
 4. [Credits](#credits)
+
+## UX
+<hr>
+
+### User Stories
+
+- As a customer I want to be able to learn about what products and events the café has.
+- As a customer I want to be able to get in contact with the café.
+- As a customer I want to be able to find the location of the café.
+- As the owner, I want to provide an intuitive website so for my customers to be able to find exactly what they need when visiting the café website.
+
+### Typography
+
+- This project uses the fonts 'Dancing Script' for the site Logo in the nav bar and 'Quicksand' as the main body font as imported from Google fonts with 'Sans-serif' as fallback.
+
+### Color Scheme
+- This website uses the Aura color scheme from the [Adobe Color website](https://color.adobe.com/search?q=aura)
+
+![Aura Color Scheme](assets/readme-files/aura-color.png)
 
 ## Features
 <hr>
@@ -103,13 +124,71 @@ Contact Page
 
 
 ### Wireframes
-Wireframe mockups for the site's design can be found [here](link.to.wireframes)
-<!-- Contact page img here -->
+Wireframe mockups for the site's design were made using Balsamiq
+
+- Index.html
+
+![Home Wireframes Image](assets/wireframes/home-wire.png)
+
+- About.html
+
+![About Wireframes Image](assets/wireframes/about-wire.png)
+
+- Contact.html
+
+![Contact Wireframes Image](assets/wireframes/contact-wire.png)
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS3)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Programs, Frameworks and Libraries Used
+
+[Google Fonts](https://fonts.google.com/)
+    - Google fonts was used to import the 2 main font styles of 'Dancing Script' and 'Quicksand'.
+
+[Adobe Color](https://color.adobe.com/)
+    - Adobe Color was used for the color scheme.
+
+[Tiny PNG](https://tinypng.com/)
+    - Tiny PNG was used to resize images included.
+
+[Balsamiq](https://balsamiq.com/)
+    - Balsamiq was used to design the wireframes.
+
+[Pexels](https://www.pexels.com/)
+    - Stock images across the project were sourced from Pexels.
+
+[Font Awesome](https://fontawesome.com/)
+    - Font Awesome was the source for the social icons in the footer.
+
+[GitHub](https://github.com/)
+    - GitHub was used to host and store the code for this project.
+
+[GitPod](https://gitpod.io/)
+    - GitPod was used as the IDE for building this project.
+
+[Am I Responsive?](https://ui.dev/amiresponsive/)
+    - Am I Responsive was used to provide the responsiveness image housed at the top of this README.md file.
+
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+    - Lighthouse in Developer Tools on Google Chrome was used to test SEO, Accessibility, Performance and Best Practices for this project.
+
+[W3C Markup Validator](https://validator.w3.org/)
+    - The W3C Markup validator was used to test HTML validity.
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - The W3C Markup validator was used to test CSS validity.
 
 ## Testing
 <hr>
 <ul>
     <li>I tested this project across various browsers including Chrome, Brave, Safari & Firefox.</li>
+    <li>I tested this project across various screen sizes and devices including iPhone, Samsung, Oppo, Dell & Lenovo mobiles and desktop/laptops.</li>
     <li>I also tested it's functionality and responsiveness using the Chrome Developer's Tools and ensured all pages were responsive across all device sizes as intended.</li>
     <li>I ensured that all navigation links, the header, about and contact text are easy to read and intuitive for the user.</li>
     <li>I added the required functionality to the contact form to ensure that only email formats will be accepted when filling in the contact form.</li>
@@ -132,30 +211,21 @@ I ran Lighthouse on each of the pages to test for best practices, performance, S
 ![Contact Us Lighthouse Image Image](assets/readme-files/contact-light.png)
 
 ### Bugs
-<h4>Solved Bugs</h4>
-<ul>
-    <li></li>
-</ul>
+
+No unresolved bugs remain
 
 ### Validator Testing
 <ul>
     <li>HTML</li>
     <ul>
-        <li>The official W3C validator returned no errors identified in the html files</li>
+        <li>The official W3C validator returned one error identified in the about.html stating that a button element must not appear as a descendant of the a element - I didn't have time to resolve this. Otherwise there are no other errors showing across all html files</li>
     </ul>
     <li>CSS</li>
     <ul>
         <li>The official Jigsaw W3C CSS Validator returned no errors from this project's CSS file</li>
     </ul>
-    <li>Accessibility</li>
-    <ul>
-        <li>This project received an accessibility score of % when run through the lighthouse in developer tools</li>
-    </ul>
 </ul>
-<!-- Lighthouse img here -->
 
-#### Unresolved Bugs
-No unresolved bugs remain
 <br>
 
 ## Deployment
@@ -167,31 +237,37 @@ This project was is hosted using GitHub pages. Deployment steps are as follow:
        2. In the side bar on the left click on Pages and then in Build and Development click on the Source dropdown and select Main then save
        3. Wait about 2 minutes then reload the page and the link and option to visit to the deployed project will appear above
 
-Go to the live link - [Bácús Café and Bakery](https://craig-ryan.github.io/bagus-cafe-and-bakery/)
+Go to the live link - [Bácús Café and Bakery](https://craig-ryan.github.io/bacus-cafe-and-bakery/index.html)
 
 ## Credits
 <hr>
 
 ### Content
-The code to reduce the Navbar items to a condensed hamburger icon was inspired by
+- The code to reduce the Navbar items to a condensed hamburger icon was inspired by [This youtube video by codeSTACKr](https://www.youtube.com/watch?v=nME3fE3c9Qw&t=179s)
 
-https://getcssscan.com/css-buttons-examples
+- The buttons on the about and contact pages were made using code from [Get CSS Scan website](https://getcssscan.com/css-buttons-examples)
 
 ### Media
-The images for the hero images across all pages were taken from [photo website](website.com)
+The images for the hero images across all pages were taken from [Pexels](https://www.pexels.com/)
 
-Photo by Marta Dzedyshko: https://www.pexels.com/photo/person-using-espresso-machine-2775827/
+- Main hero image on index.html
 
-Photo by Chevanon Photography: https://www.pexels.com/photo/close-up-of-coffee-cup-324028/
+    [Photo by Marta Dzedyshko](https://www.pexels.com/photo/person-using-espresso-machine-2775827/)
 
-Photo by Livier Garcia: https://www.pexels.com/photo/assorted-fruits-on-person-s-hand-1459339/
+- Coffee beans and cake images on index.html
 
-Photo by Abhinav Goswami: https://www.pexels.com/photo/sliced-cake-on-plate-291528/ 
+    [Photo by Abhinav Goswami](https://www.pexels.com/photo/sliced-cake-on-plate-291528/)
+
+    [Photo by Chevanon Photography](https://www.pexels.com/photo/close-up-of-coffee-beans-in-bowl-333523/)
+
+- Hero image on about and contact html pages 
+
+    [Photo by Chevanon Photography](https://www.pexels.com/photo/close-up-of-coffee-cup-324028/)
+
+Social Icons from [Font Awesome](https://fontawesome.com/)
 
 ### Acknowledgements
-I would like to thank X, X & X for their help in testing and criticism of this project.
+I would like to thank Code Institute for the course materials and structure that allowed me to gain the skills to take on this project. My mentor Marcel for his support during our meetings. My September lwetb colleagues and Kasia Bogucka for their guidance and weekly meetings as well as my friend and family who tested the website and gave me their feedback.
 
-### Technologies Used
 
-https://tinypng.com/
 
